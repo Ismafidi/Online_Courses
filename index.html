@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cours Universitaires en Ligne</title>
+    <link rel="stylesheet" href="1.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="images/logo.png-removebg-preview.png" alt="Logo du site">
+        </div>
+        <nav>
+            <ul>                
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#cours">Cours</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-bar">
+            <form action="/search" method="get">
+                <input type="text" name="q" placeholder="Rechercher...">
+                <button type="submit">Recherche</button>
+            </form>
+        </div>
+       
+        <div class="button-container">
+            <button class="btn">Se connecter</button>
+            <button class="btn btn-primary">S'inscrire</button>
+            <button class="btn icon-button">
+                <img src="images/44386.png" alt="Langue" />
+            </button>
+            <button class="btn icon-button">
+                <img src="images/logocompte-removebg-preview.png" alt="Langue" />
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="cours">
+            <h2>Liste des Cours</h2>
+            <div class="cours">
+                <article>
+                    <h3>Introduction à la Programmation</h3>
+                    <p>Apprenez les bases de la programmation avec Python.</p>
+                </article>
+                <article>
+                    <h3>Mathématiques Discrètes</h3>
+                    <p>Explorez les concepts fondamentaux des mathématiques discrètes.</p>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
